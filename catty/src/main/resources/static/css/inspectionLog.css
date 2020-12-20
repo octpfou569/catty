@@ -1,0 +1,327 @@
+.post-single .ins-log {
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, .05) 0px 0px 16px 0px;
+}
+
+.post-single .ins-log .image-preview {
+	float: left;
+	border-radius: 10px;
+	border: none;
+	margin-left: 10px;
+	height: 400px;
+	margin-bottom: 30px;
+	max-width: 38%;
+	background-color: #ffffff;
+}
+
+.post-single .ins-log .comment-respond {
+	position: relative;
+	background: url(../images/pt1.png) center center repeat fixed;
+	padding: 30px;
+	border-radius: 5px;
+	margin-top: 60px;
+	box-shadow: rgba(0, 0, 0, .09) 0px 0px 16px 0px;
+	width: 96%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.post-single .ins-log .ins-log-title {
+	display: inline-block;
+	color: #656464;
+	line-height: 1.5;
+	color: #343434;
+	font-size: 30px;
+	font-weight: 700;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.post-single .ins-log textarea {
+	float: right;
+	margin-right: 10px;
+	outline: none;
+	width: 60%;
+	height: 400px;
+	padding: 12px 15px; /* textarea 내부 글씨와 바깥선 경계의 크기? 위, 양옆*/
+	margin-bottom: 30px; /* 텍스트박스 아래 공간  */
+	border: none;
+	border-radius: 10px;
+	line-height: nomal;
+	resize: none;
+	background-color: #ffffff;
+}
+
+.post-single .ins-log .comment-respond .comment-reply-title {
+	display: inline-block;
+	line-height: 2; /* 줄간격  */
+	color: #343434;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.post-single .ins-log .comment-respond .comment-reply-title:before {
+	content: '';
+	position: absolute;
+	bottom: 15px;
+	right: -31px;
+	width: 18px;
+	height: 2px;
+	border-radius: 20px;
+	background-color: #f3a079;
+}
+
+.post-single .ins-log .comment-respond .comment-form .form-submit .submit
+	{
+	background-color: #f3a079;
+	min-width: 100px;
+	border: none;
+	color: #fff;
+	padding: 8px 8px;
+	border-radius: 10px;
+	font-size: 13px;
+	outline: none;
+	transition: all .3s ease-in-out;
+}
+
+.post-single .ins-log .facility .facility-detail .map {
+	float: left;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+.post-single .ins-log .facility .facility-detail .facility-info {
+	float: left;
+	font-size: 15px; 
+	font-weight:700;
+	line-height: 5;
+	color: #656464;
+	width: 45%;
+	height: 350px;
+	padding: 12px 15px; /* textarea 내부 글씨와 바깥선 경계의 크기? 위, 양옆*/
+	/* border: 1px solid #dedede; */
+	border-radius: 10px;
+	line-height: nomal;
+	margin-left: 30px;
+}
+
+.post-single .ins-log .facility .facility-detail .facility-detail-title {
+	color: #656464;
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.post-single .ins-log .facility .facility-detail .facility-detail-title:before
+	{
+	content: '';
+	position: absolute;
+	bottom: 15px;
+	right: -31px;
+	width: 18px;
+	height: 2px;
+	border-radius: 20px;
+	background-color: #f3a079;
+}
+
+.button-move {
+	background-color: #f3a079;
+	min-width: 100px;
+	border: none;
+	color: #fff;
+	padding: 8px 8px;
+	border-radius: 10px;
+	font-size: 13px;
+	outline: none;
+	transition: all .3s ease-in-out;
+	margin-bottom: 25px;
+	-webkit-transition: all .3s ease-in-out; /* 서서히 바뀌는거 */
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+}
+
+.button-move:hover {
+	background: #f97785;
+}
+
+.button-move:focus {
+	outline: none;
+}
+
+.button-submit {
+	background-color: #f3a079;
+	min-width: 100px;
+	border: none;
+	color: #fff;
+	padding: 8px 8px;
+	border-radius: 10px;
+	font-size: 13px;
+	outline: none;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out; /* 서서히 바뀌는거 */
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+}
+
+.button-submit:hover {
+	background: #f97785;
+}
+
+.button-submit:focus {
+	outline: none;
+}
+
+.facility-detail .button-edit-form {
+	position: absolute;
+	right: 160px;
+	/* top: 30px; */
+	bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.facility-detail .button-edit-form button[type=submit] {
+	margin-bottom: 0px;
+}
+
+.facility-detail .button-delete-form {
+	position: absolute;
+	right: 50px;
+	bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.facility-detail .button-delete-form button[type=submit] {
+	margin-bottom: 0px;
+}
+
+.facility-detail .move-buttons .button-submit {
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	margin-bottom: 0px;
+}
+
+/* 
+	점검일지 목록
+ */
+.post-single .ins-log .map-inslog-list {
+	margin-top: 30px;
+}
+
+.post-single .ins-log .ins-log-list {
+	height: 410px;
+	margin-top: 30px;
+	margin-left: 30px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.post-single .ins-log .ins-log-list-title {
+	color: #343434;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.post-single .ins-log .ins-log-list-title:before {
+	content: '';
+	position: absolute;
+	bottom: 15px;
+	right: -31px;
+	width: 18px;
+	height: 2px;
+	border-radius: 20px;
+	background-color: #f3a079;
+}
+
+.post-single .ins-log .text-search {
+	float: right;
+	padding: 6px;
+	margin-top: 55px;
+	outline: none;
+	margin-right: 10px;
+	width: 300px;
+	border: 1px solid #dedede;
+	color: #292929;
+	line-height: normal;
+	font-size: 13px;
+	border-radius: 10px;
+}
+
+.ins-log-detail {
+	font-size: 15px;
+	font-weight: 700;
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.post-single .ins-log .button-search {
+	background-color: #f3a079;
+	width: 55px; border : none;
+	color: #fff;
+	padding: 8px 8px;
+	border-radius: 10px;
+	font-size: 13px;
+	outline: none;
+	transition: all .3s ease-in-out;
+	margin-top: 55px;
+	line-height: normal;
+	float: right;
+	border: none;
+}
+
+/* 점검일지 수정 */
+.post-single .ins-log .edit .buttons .button-submit {
+	position: absolute;
+	right: 170px;
+	bottom: 75px;
+}
+
+.post-single .ins-log .edit .buttons .button-move {
+	position: absolute;
+	right: 140px;
+	bottom: 30px;
+	margin-bottom: 0px;
+}
+
+.post-single .ins-log .ins-log-map-title {
+	background-color: #f4f4f4;
+	text-align: center;
+	padding-top: 150;
+	outline: none;
+	border: none;
+	width: 350px;
+	height: 350px;
+	margin-left: 30px;
+	font-weight: 600;
+}
+
+.post-single .ins-log input[type=file] {
+	width: 275px;
+	padding: 10px;
+	font-size: 15px;
+	background-color: transparent;
+	color: #000000;
+	border: none;
+	outline: none;
+	transition: all .3s ease-in-out;
+}
+
+.post-single .ins-log input[type=file]:hover {
+	box-shadow: #f3a079 0px 0px 16px 0px;
+}
